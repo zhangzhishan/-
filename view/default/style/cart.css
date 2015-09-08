@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+#cart{
+	width:1200px;
+	margin:10px auto 0;
+	border:1px solid #ddd;
+}
+#cart h2{
+	
+	height:34px;
+	line-height:34px;
+	background:url(../images/h2_bg2.png)no-repeat 10px center;
+	text-indent:25px;
+	color:#555;
+	font-size:14px;
+}
+#cart table{	
+	width:98%;
+	border-top:none;
+	margin:10px;
+	text-align:center;
+	background:#777;	
+	border-spacing:1px;
+	font-size:12px;
+}
+#cart table td,#cart table th{
+	background:#fff;
+	padding:10px 5px;	
+}
+#cart table td input.num{
+	width:40px;
+	text-align:center;
+}
+#cart p{
+	margin:10px;
+	padding:10px;
+	overflow: hidden;
+	text-align: right;
+}
+#cart p.buy_total{
+	text-align: left;
+}
+#cart p span{
+	float:right;
+}
+#cart div.now_pay{
+	text-align: right;
+}
+#cart div.now_pay a{
+	display: inline-block;
+	background: #ec5e72;
+	text-align: center;
+	width:140px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 2px;
+	margin:0 10px 10px 0;
+}
+#cart table caption{
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	height:30px;
+	line-height:30px;
+	padding-bottom: 6px;
+}
+#cart table td textarea{
+	max-width: 99%;
+    min-width: 99%;
+    border:1px solid #ccc;
+    font-size: 12px;
+    padding:2px;	
+}
+#cart input[name="send"]{
+	background: #ec5e72;
+	text-align: center;
+	width:140px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 2px;
+	border:none;
+	cursor:pointer;
+}

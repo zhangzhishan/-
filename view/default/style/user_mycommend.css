@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+#main div.mycommend{
+	border:1px solid #C5E4FF;
+	border-top:none;
+	padding:10px;
+}
+
+
+#main .mycommend dl {
+	padding:10px 0 10px 40px;
+	float:left;
+	width:auto;
+	margin:0 0 10px 20px
+}
+#main .mycommend dl dt{
+	float:left;
+	width:auto;
+}
+#main .mycommend dl dt img{
+	width:100px;
+	height:100px;
+}
+#main .mycommend dl dd{
+	padding:0 0 0 20px;
+	float:left;
+	width:500px;
+	line-height:20px;
+}
+#main .mycommend dl dd span.date{
+	float:right;
+}
+#main .mycommend dl dd span.star{
+	color:orange;
+}
+#main div.mycommend p{
+	clear:both;
+	padding:10px 20px;
+	margin-bottom: 20px;
+	border-bottom:1px dashed #ccc;
+}

@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+#main h2{
+	margin-bottom: 20px;
+}
+#main dl.pic{
+	width:304px;
+	float:left;
+}
+
+#main dl.pic dt{
+	width:304px;
+	height:304px;
+	position: relative;
+}
+#main dl.pic dt img{
+	margin:2px auto;
+	width:304px;
+	height:304px;
+}
+#main dl.pic dd{
+	text-align:center;
+	padding:20px 0 14px 0;
+}
+#main dl.pic dd a{
+	 color:#026ACB;
+}
+#main dl.pic dd a:hover{
+	text-decoration:underline;
+}
+#main dl.text{
+	width:500px;
+	float:left;
+	padding:10px 0 0 20px;
+	position: relative;
+}
+#main dl.text dt{
+	width:380px;
+	height: 377px;	
+	position: absolute;
+	top:0;
+	left: 0;
+	overflow: hidden;
+	border:1px solid #777;
+}
+#main dl.text dt img{
+	width:800px;
+	height: 800px;
+	position: absolute;
+	top:0;
+	left: 0;
+}	
+#main dl.text dd{
+	padding:6px;
+}
+
+#main dl.text dd input.num{
+	width:40px;
+}	
+#main dl.text dd span.sale{
+	font-family:Tahoma;
+	font-size:20px;
+	font-weight:bold;
+	color:red;
+}	
+#main dl.text dd span.market{
+	font-size:14px;
+	color:#666;
+	text-decoration:line-through;	
+}
+#main dl.text dd span.sale_num{
+	color: #CC6600;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+#main dl.text dd span.gray{
+	color:gray;
+}
+#main dl.text dd input.submit{
+	background:#ec5e72;
+	width:144px;
+	height:35px;
+	border-radius: 2px;
+	border:none;
+	float:left;
+    cursor: pointer;
+	margin:0 10px 10px 0;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+#main dl.text dd.buy_button a{
+	float:left;
+	display: inline-block;
+	width:144px;
+	height:35px;
+	border-radius: 2px;
+	margin:0 10px 10px 0;
+	background:#ec5e72;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 35px;
+}
+#main div.content{
+	clear:both;
+	padding:15px 0 0 0;
+}
+#main div.content ul.channel{
+	height:30px;
+	border-bottom:1px solid #ddd;
+}
+#main div.content ul.channel li{
+	float:left;
+	width:86px;
+	height:30px;
+	text-align:center;
+	margin:0 4px 0 0;
+	line-height:30px;
+	cursor:pointer;
+	background:url(../images/content_bg2.png) no-repeat right center;
+}
+#main div.content ul.channel li.selected{
+	background:#555;
+	color: #fff;
+	border-radius: 2px 2px 0 0;
+}
+#main div.content div.c{
+	padding:10px 0 0 0;
+}
+#main div.content div.c span.star{
+	color:orange;
+}
+.commend_left {
+	width:100px;
+	height:50px;
+	float:left;
+	margin:10px 0;
+}
+.commend_left p {
+	padding:0 0 5px 0;
+}
+.commend_left .star {
+	color:orange;
+}
+.commend_right {
+	width:685px;
+	float:right;
+	margin:10px 0;
+}
+.commend_right p {
+	padding:0 0 10px 0;
+}
+.commend_right .attr {
+	color:#666;
+}
+.commend_right em {
+	float:right;
+	color:#666;
+	font-style:normal;
+}
+div.c p.re_commend{
+	border-bottom:1px dashed #ccc;
+	clear:both;
+}
+div.c table{
+	text-align:center;
+	font-size:12px;
+}
+div.c table th{
+	background:#eee;
+	padding:10px;
+}
+div.c table td{
+	padding:20px 0;
+}
+#mask {
+    background: #000;
+    display: none;
+    height: 70px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 70px;
+    cursor:move;
+}
+#zoomLarge{
+	display: none;
+}

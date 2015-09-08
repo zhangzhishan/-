@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+#main h2 a{
+	float:right;
+	padding:0 10px 0 0;
+	color:#eb6427;
+}
+#main h2 a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,457 @@
+@CHARSET "UTF-8";
+#sidebar{
+	width:200px;
+	height:600px;
+	float:left;
+	margin:10px 0 0 0;
+}
+#sidebar h2{
+	height:34px;
+	line-height:34px;
+	background:url(../images/h2_bg.png);
+	text-indent:25px;
+	color:#56A5EE;
+	font-size:12px;
+}
+#sidebar div{
+	margin:0 0 10px 0;
+}
+#sidebar div.box{
+	border:1px solid #C5E4FF;
+	padding:10px;
+}
+#sidebar div.cart{
+	border:10px solid #c7e5ff;
+	padding:10px;
+	background:#f0fbff;
+}
+.red{
+	color:red;
+}
+#sidebar ul{
+	padding:10px;
+	background:red;
+}
+#sidebar ul li{
+	float:left;
+}
+#sidebar dl{
+	padding:10px;
+}
+#sidebar dl dt img{
+	display:block;
+	margin:0 auto;
+	border:1px solid #ccc;
+}
+#sidebar dl dd{
+	padding:5px 0 0 5px;
+}
+#sidebar dl dd.price{
+	color:gray;
+	text-align:center;
+	font-size:14px;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+#sidebar dl dd.title a{
+	color:#666;
+}
+#sidebar dl dd.title a:hover{
+	text-decoration:underline;
+}
+p.clear{
+	clear:both;
+}
+
+#HP_carousel .icon, .scroll-box .btns .switcher li {
+    background-image: url("../images/handle.png");
+    background-repeat: no-repeat;
+}
+.scroll-box {
+    height: 530px;
+    margin: 0 auto 40px;
+    position: relative;
+    width: 1438px;
+}
+.scroll-box .img {
+    height: 530px;
+    overflow: hidden;
+    position: absolute;
+    width: 1438px;
+}
+.scroll-box .slider {
+    position: absolute;
+    top: 0;
+    width: 9999px;
+}
+.scroll-box .paging {
+    background-color: #fff;
+    height: 530px;
+    opacity: 0.8;
+    overflow: hidden;
+    position: absolute;
+    width: 239px;
+}
+.scroll-box .paging .masking {
+    display: block;
+    height: 530px;
+    opacity: 0.8;
+    position: absolute;
+}
+.scroll-box .subpattern {
+    right: 0;
+}
+.scroll-box .btns {
+    position: absolute;
+    width: 1200px;
+    z-index: 10;
+}
+.scroll-box .btns .icon {
+    cursor: pointer;
+    display: block;
+    height: 53px;
+    overflow: hidden;
+    position: absolute;
+    top: 238px;
+    width: 53px;
+    z-index: 2999;
+}
+.scroll-box .btns .prev {
+    background-position: 0 0;
+    left: -10px;
+}
+.scroll-box .btns .next {
+    background-position: 10px -53px;
+    right: -10px;
+}
+.scroll-box .btns .prev:hover {
+    background-position: -53px 0;
+    left: -10px;
+}
+.scroll-box .btns .next:hover {
+    background-position: -43px -53px;
+    right: -10px;
+}
+.scroll-box .btns .switcher {
+    display: block;
+    height: 14px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 545px;
+    width: 100px;
+}
+.scroll-box .btns .switcher li {
+    background-position: -110px 0;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    height: 14px;
+    line-height: 0;
+    margin-right: 6px;
+    overflow: hidden;
+    width: 14px;
+}
+.scroll-box .btns .switcher li.on {
+    background-position: -110px -14px;
+}
+
+#HP_carousel {
+    height: 530px;
+    margin: 0 auto 40px;
+    position: relative;
+    width: 1200px;
+}
+#HP_carousel a {
+    display: inline;
+    float: left;
+}
+#HP_carousel .img {
+    height: 530px;
+    overflow: hidden;
+    position: absolute;
+    width: 1200px;
+}
+#HP_carousel .img span {
+    display: block;
+    position: absolute;
+    width: 19999px;
+}
+#HP_carousel .btns span {
+    cursor: pointer;
+    display: block;
+    height: 53px;
+    overflow: hidden;
+    position: absolute;
+    top: 238px;
+    width: 53px;
+    z-index: 2999;
+}
+#HP_carousel .pattern a {
+    float: right;
+}
+#HP_carousel .masking {
+    background: #fff;
+    display: block;
+    height: 530px;
+    opacity: 0.8;
+    position: absolute;
+}
+#HP_carousel .btns span {
+    display: block;
+}
+/*Sold range*/
+#sale_num{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#sale_num h2{
+    font-weight: normal;
+    font-size: 26px;
+}
+#sale_num p.short_line{
+    width:52px;
+    height: 3px;
+    background: red;
+    margin:10px 0 20px 0;
+}
+#sale_num .box ul{
+    overflow: hidden;
+}
+#sale_num .box li{
+    width:220px;
+    margin:10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#sale_num li img{
+    width:220px;
+    height: 280px;
+}
+#sale_num li .bg_hover{
+    position: absolute;
+    width:220px;
+    height: 280px;
+    background:rgba(53, 53, 53, 0.7)!important;
+    background:#353535; 
+    filter:Alpha(opacity=70);
+    top:280px;
+    left:0px;
+}
+#sale_num li .bg_hover p{
+    color: #f2f2f2;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+}
+#sale_num li .bg_hover p.see{
+    background: #ec5e72;
+    width:108px;
+    line-height: 38px;
+    text-align: center;
+    color:#f2f2f2;
+    margin:0 auto;
+    cursor:pointer;
+}
+#sale_num li .bg_hover p.price{
+    color: #f2f2f2;
+    margin-top:80px;
+    font-size: 18px;
+}
+#sale_num li .bg_hover p a{
+    color: #fff;
+}
+#main{
+    width:1200px;
+    margin:0 auto;
+}
+#main h2{
+    font-weight: normal;
+    font-size: 26px;
+    margin-top:14px;
+}
+#main p.short_line{
+    width:52px;
+    height: 3px;
+    background: red;
+    margin:10px 0 20px 0;
+}
+#main div.pro_list{
+    margin-left:-20px;
+    width:1220px;
+}
+
+#main dl {
+    width:260px;
+    padding:10px;
+    display:inline-block;
+    border:1px solid #ddd;
+    margin:0 0 20px 20px;
+}   
+#main dl dt{
+    width:260px;
+}
+#main dl dt img{
+    width:260px;
+}
+#main dl:hover{
+    border:1px solid #777;
+}
+#main dl dd{
+    padding:5px 0;
+}
+#main dl dd strong{
+    font-size:16px;
+    font-family:Tahoma;
+    color:red;
+}   
+#main dl dd del{
+    color:#999;
+}  
+#main dl dd.price strong{
+    color:#555;
+} 
+#main dl dd.title a{
+    font-size:14px;
+    color:#555;
+}
+#main dl dd.commend a{
+    color: #555;
+} 
+#main dl dd.buy a{
+    color: #555;
+} 
+#main dd.buy .now_buy{
+    display: inline-block;
+    margin-left: 10px;
+    width:80px;
+    height: 34px;
+    line-height: 34px;
+    background: #ec5e72;
+    text-align: center;
+}
+#main dd.buy .now_buy a{
+    color: #f2f2f2;
+}
+#main dl dd.title a:hover{
+    text-decoration:underline;
+    color: #ec5e72;
+}
+#main div.pro_list_two{
+    width:1200px;
+    margin-left: 2px;
+    overflow: hidden;
+}
+#main div.pro_list_two dl{
+    width:218px;
+    padding:10px;
+    float:left;
+    border:1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    margin:0;
+    margin-bottom: -1px;
+    margin-right: -1px;
+}
+#main div.pro_list_two dl dd{
+    text-align: center;
+}
+#main div.pro_list_two dt,#main div.pro_list_two dt img{
+    width:218px;
+    height: 218px;
+}
+#main div.pro_list_two dl .covers{
+    width:238px;
+    height: 267px;
+    background:rgba(255, 255, 255, 0.7)!important;
+    background:#fff; 
+    filter:Alpha(opacity=70);
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.pro_list_two p{
+    text-align: center;
+    color: #555;
+}
+.pro_list_two p.now_buy{
+    width:150px;
+    height: 34px;
+    line-height: 34px;
+    background: #ec5e72;
+    margin:10px auto;
+}
+.pro_list_two .covers p.now_buy a{
+    color: #f2f2f2;
+    display: block;
+}
+.pro_list_two .covers .title{
+    padding-bottom: 8px;
+}
+.pro_list_two .covers .title a{
+    color: #333;
+    font-size: 14px;
+}
+.pro_list_two .covers .title a:hover{
+    text-decoration: underline;
+}
+.pro_list_two .covers p a{
+    color: #555;
+}
+.pro_list_two .covers p.buy{
+    line-height: 22px;
+}
+.pro_list_two .covers p.commend span.green{
+    color:#333;
+}
+.pro_list_two .price{
+    padding-top:60px;
+}
+.pro_list_two .price strong{
+    color: #000;
+    font-weight: normal;
+    font-size: 18px;
+}
+.pro_list_two .price del{
+    color: #666;
+}
+#main div.brand{
+    width:1180px;
+    margin:0 auto 40px;
+    height: 150px;
+    border:1px solid #ddd;
+    padding:20px 0 0 20px;
+}
+#main div.brand ul{
+    float: left;
+    height: 150px;
+}
+#main div.brand ul li{
+    width:134px;
+    height: 50px;
+    float: left; 
+    background: #fff;
+    margin:0 6px; 
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+#main div.brand ul li span{
+    display: block;
+    width:115px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    background: #fff;
+    padding:15px 5px;
+    border:1px solid #ccc;
+}
+#main div.brand ul li a{
+    display: block;
+    color: #555;
+    font-size: 18px;
+}
